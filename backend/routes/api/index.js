@@ -9,9 +9,13 @@ router.use('/session', sessionRouter);
 
 router.use('/users', usersRouter);
 
-router.post('/test', (req, res) => {
+
+//TEST ROUTE
+
+/*router.post('/test', (req, res) => {
   res.json({ requestBody: req.body });
 });
+*/
 
 
 // GET /api/set-token-cookie
